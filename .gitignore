@@ -22,6 +22,9 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 
+# ignore xcode project file becasue it should be genereated new
+*.xcodeproj/ 
+
 ## Obj-C/Swift specific
 *.hmap
 *.ipa

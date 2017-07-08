@@ -21,7 +21,7 @@ class PersistentContainer {
                 user: "austinchen",
                 password: ""
             )
-            
+
             let driver = PostgreSQLDriver.Driver(master: postgreSQL)
             Fluent.Database.default = Fluent.Database(driver)
             try Fluent.Database.default?.prepare([Pet.self])

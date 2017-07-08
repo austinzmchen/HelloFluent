@@ -44,3 +44,4 @@ extension Pet: Preparation {
         try database.delete(self)
     }
 }
+
