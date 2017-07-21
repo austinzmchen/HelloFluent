@@ -1,7 +1,19 @@
+db:
+  image: postgres
+  ports:
+    - "5984:5984"
+  environment:
+    POSTGRES_DB: austinchen
+    POSTGRES_USER: austinchen
+
 app:
-  image: ibmcom/swift-ubuntu
+  # build: .
+  # dockerfile: dockerfile_swift
+  image: austinzmchen/swift-n-postgresql
   ports:
     - "8080:8080"
   volumes:
     - .:/root/HelloFluent
-  command: bash -c "cd /root/HelloFluent && swift package clean && swift build && ./.build/debug/HelloFluent"
+  command: bash -c "cd /root/HelloFluent && swift package clean && swift build && ./.build/debug/App"
+  links:
+    - db:localhost

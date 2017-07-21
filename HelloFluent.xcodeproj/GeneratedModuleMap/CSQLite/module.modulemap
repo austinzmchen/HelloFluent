@@ -1,4 +1,4 @@
 module CSQLite {
-    umbrella "/Users/austinchen/workspace/HelloFluent/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include"
+    umbrella "/Users/austinchen/workspace/HelloFluent/.build/checkouts/sqlite.git-6842836393335854774/Sources/CSQLite/include"
     export *
 }

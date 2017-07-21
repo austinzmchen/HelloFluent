@@ -14,28 +14,28 @@
       "version": "0.4.0"
     },
     {
+      "package": "CEpoll",
+      "reason": null,
+      "repositoryURL": "https://github.com/IBM-Swift/CEpoll.git",
+      "version": "0.1.0"
+    },
+    {
       "package": "COpenSSL",
       "reason": null,
-      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-COpenSSL.git",
-      "version": "2.0.4"
-    },
-    {
-      "package": "CPostgreSQL",
-      "reason": null,
-      "repositoryURL": "https://github.com/vapor-community/cpostgresql.git",
-      "version": "2.0.0"
-    },
-    {
-      "package": "CommonCrypto",
-      "reason": null,
-      "repositoryURL": "https://github.com/IBM-Swift/CommonCrypto.git",
-      "version": "0.1.4"
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-COpenSSL-Linux.git",
+      "version": "2.0.3"
     },
     {
       "package": "Core",
       "reason": null,
       "repositoryURL": "https://github.com/vapor/core.git",
       "version": "2.0.2"
+    },
+    {
+      "package": "CPostgreSQL",
+      "reason": null,
+      "repositoryURL": "https://github.com/vapor-community/cpostgresql.git",
+      "version": "2.0.0"
     },
     {
       "package": "Cryptor",
@@ -80,6 +80,12 @@
       "version": "1.8.0"
     },
     {
+      "package": "Kitura-net",
+      "reason": null,
+      "repositoryURL": "https://github.com/IBM-Swift/Kitura-net.git",
+      "version": "1.7.13"
+    },
+    {
       "package": "Kitura-Session",
       "reason": null,
       "repositoryURL": "https://github.com/IBM-Swift/Kitura-Session.git",
@@ -92,10 +98,10 @@
       "version": "1.7.1"
     },
     {
-      "package": "Kitura-net",
+      "package": "LinuxBridge",
       "reason": null,
-      "repositoryURL": "https://github.com/IBM-Swift/Kitura-net.git",
-      "version": "1.7.13"
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-LinuxBridge.git",
+      "version": "2.0.2"
     },
     {
       "package": "LoggerAPI",
@@ -108,6 +114,12 @@
       "reason": null,
       "repositoryURL": "https://github.com/vapor/node.git",
       "version": "2.0.3"
+    },
+    {
+      "package": "OpenSSL",
+      "reason": null,
+      "repositoryURL": "https://github.com/IBM-Swift/OpenSSL.git",
+      "version": "0.3.5"
     },
     {
       "package": "PerfectCrypto",
@@ -146,6 +158,18 @@
       "version": "1.1.1"
     },
     {
+      "package": "Signals",
+      "reason": null,
+      "repositoryURL": "https://github.com/IBM-Swift/BlueSignals.git",
+      "version": "0.9.48"
+    },
+    {
+      "package": "Socket",
+      "reason": null,
+      "repositoryURL": "https://github.com/IBM-Swift/BlueSocket.git",
+      "version": "0.12.56"
+    },
+    {
       "package": "SQLite",
       "reason": null,
       "repositoryURL": "https://github.com/vapor/sqlite.git",
@@ -156,12 +180,6 @@
       "reason": null,
       "repositoryURL": "https://github.com/IBM-Swift/BlueSSLService.git",
       "version": "0.12.45"
-    },
-    {
-      "package": "Socket",
-      "reason": null,
-      "repositoryURL": "https://github.com/IBM-Swift/BlueSocket.git",
-      "version": "0.12.56"
     },
     {
       "package": "SwiftyJSON",

@@ -53,7 +53,7 @@ router.get("/") { (request, response, next) in
 router.post("/pet") { (request, response, next) in
     let pet = Pet(name: "Naomi", age: 2)
     try pet.save()
-    response.send("Pet saved:")
+    response.send("Pet saved: \(pet.name)")
 }
 router.get("/login") { request, response, next in
     let jwtPayload: [String : Any] = [
